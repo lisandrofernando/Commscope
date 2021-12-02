@@ -26,6 +26,7 @@ public class TestPrintLink {
 		for (int i=0; i<myLinks.size(); i++) {
 			
 			System.out.println("The link are "+ myLinks.get(i).getText());
+			System.out.println("The link are "+ myLinks.get(i).getAttribute("href"));
 		}
 		
 		
